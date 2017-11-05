@@ -33,7 +33,7 @@ myapp.controller('client-controller', function ($scope, clientService) {
             else { alert("Client not added."); }
         },
         function () {
-            alert("Error occurred while adding employee.");
+            alert("Error occurred while adding client.");
         });
     }
 
